@@ -27,14 +27,12 @@ Before you start building your portfolio, you should have a good understanding o
 
 
 ## BONUS:  You can work on these features at your own pace
-
-     1.   Dark Mode: Implement a toggle button that allows users to switch between light and dark 
-     2.   Animation: Use CSS animations to add visual interest to your portfolio. For example, you could add a hover effect to project 
-          images or create a smooth scroll effect for navigation.
-     3.   Additional Pages: Add additional pages to your portfolio, such as a blog or resume page.
-     4.   Using API’s : do not pay for your data / API calls.
-     5.   Whatever you can think of!!!!
-     6.  Use of any external styling frameworks like [Bootstrap](https://react-bootstrap.netlify.app/), [Material UI](https://mui.com/material-ui/), [Tailwind](https://tailwindcss.com/docs/guides/create-react-app) or any other framework that you really want.
+- **Dark Mode:** Implement a toggle button that allows users to switch between light and dark
+- **Animation:** Use CSS animations to add visual interest to your portfolio. For example, you could add a hover effect to project images or create a smooth scroll effect for navigation.
+- **Additional Pages:** Add additional pages to your portfolio, such as a blog or resume page.
+- **Using API’s:** do not pay for your data / API calls.
+- Whatever you can think of!!!!
+- Use of any external styling frameworks like [Bootstrap](https://react-bootstrap.netlify.app/), [Material UI](https://mui.com/material-ui/), [Tailwind](https://tailwindcss.com/docs/guides/create-react-app) or any other framework that you really want.
      
      ` DONT FORGET TO ADD THAT FRAMEWORK IN THE TECHNOLOGIES SECTION 🙂`
     
