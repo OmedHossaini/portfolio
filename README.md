@@ -3,13 +3,13 @@
 # Welcome to the Portfolio Building Challenge! 💼
 
 
-In this challenge you will be using React and Styled Components to create a professional portfolio that will showcase your skills and experiences.
+In this challenge you will be using React and Styling libraries ( or frameworks) to create a professional portfolio that will showcase your skills and experiences.
 
 
 ## Getting Started 🎬
 
 
-Before you start building your portfolio, you should have a good understanding of React and styled components. For reference, you can always go back and look at your workshops and online materials and utilize all the knowledge that you gathered
+Before you start building your portfolio, you should have a good understanding of React basics. For reference, you can always go back and look at your workshops and online materials and utilize all the knowledge that you gathered
 
 *Requirements*
 **NOTE: USE ALL THE CONCEPTS OF REACT THAT YOU HAVE LEARNT IN THE CLASS TO MAKE YOUR PORTFOLIO**
