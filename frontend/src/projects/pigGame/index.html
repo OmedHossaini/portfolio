@@ -8,30 +8,56 @@
     <title>Pig Game</title>
 </head>
 <body>
-    <main>
-    <section class="player player--0 player--active">
-        <h2 class="name" id="name--0">Player 1</h2>
-        <p class="score" id="score--0">43</p>
-        <div class="current">
-        <p class="current-label">Current</p>
-        <p class="current-score" id="current--0">0</p>
+    <div id="start-screen" class="start-screen">
+        <h1>Welcome to the Pig Game!</h1>
+        <div class="instructions">
+            <h2>How to Play:</h2>
+            <p><strong>Rolling the Dice:</strong></p>
+            <p>You start your turn by rolling the dice. To roll, click the "Roll Dice" button. The number rolled on the dice will be added to your current score.</p>
+            <p><strong>Current Score:</strong></p>
+            <p>Your current score is the sum of the dice rolls during your turn. Be strategic and decide when to "Hold" to add your current score to your total score.</p>
+            <p><strong>Holding Your Score:</strong></p>
+            <p>Click the "Hold" button to add your current score to your total score. It's crucial to hold before you roll a 1, as rolling a 1 will reset your current score to zero, and you lose your turn.</p>
+            <p><strong>Winning the Game:</strong></p>
+            <p>The game continues with players taking turns. The first player to reach or exceed 20 points wins the game.</p>
+            <p><strong>Additional Notes:</strong></p>
+            <p><strong>Rolling a 1:</strong></p>
+            <p>If you roll a 1, your current score resets to zero, and your turn ends. Be cautious and decide wisely when to roll the dice and when to hold.</p>
+            <p><strong>Switching Turns:</strong></p>
+            <p>Turns alternate between players. The active player is indicated by the highlighted section on the game screen.</p>
+            <p>Enjoy the Pig Game! May the dice be in your favor. Good luck!</p>
         </div>
-    </section>
-    <section class="player player--1">
-        <h2 class="name" id="name--1">Player 2</h2>
-        <p class="score" id="score--1">24</p>
-        <div class="current">
-        <p class="current-label">Current</p>
-        <p class="current-score" id="current--1">0</p>
-        </div>
-    </section>
+        <label for="player1">Player 1 Name:</label>
+        <input type="text" id="player1" placeholder="Enter name" />
+        <label for="player2">Player 2 Name:</label>
+        <input type="text" id="player2" placeholder="Enter name" />
+        <button class="btn btn--start" onclick="startGame()">Go to Game</button>
+    </div>
 
-    <img src="dice-5.png" alt="Playing dice" class="dice" />
-    <button class="btn btn--new">🔄 New game</button>
-    <button class="btn btn--roll">🎲 Roll dice</button>
-    <button class="btn btn--hold">📥 Hold</button>
+    <main id="game-screen" class="hidden">
+        <section class="player player--0 player--active">
+            <h2 class="name" id="name--0">Player 1</h2>
+            <p class="score" id="score--0">0</p>
+            <div class="current">
+                <p class="current-label">Current</p>
+                <p class="current-score" id="current--0">0</p>
+            </div>
+        </section>
+        <section class="player player--1">
+            <h2 class="name" id="name--1">Player 2</h2>
+            <p class="score" id="score--1">0</p>
+            <div class="current">
+                <p class="current-label">Current</p>
+                <p class="current-score" id="current--1">0</p>
+            </div>
+        </section>
+
+        <img src="dice-5.png" alt="Playing dice" class="dice" />
+        <button class="btn btn--new">🔄 New game</button>
+        <button class="btn btn--roll">🎲 Roll dice</button>
+        <button class="btn btn--hold">📥 Hold</button>
     </main>
+
     <script src="script.js"></script>
 </body>
 </html>
-

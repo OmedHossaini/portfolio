@@ -1,43 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+        <title>Personal Portfolio</title>
+       
+</head>
+    <body>
+        
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">OMED</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#project" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Omed</span><br>a Fullstack Web Dev</h1>
+
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/omed-hossaini-a25b942a0/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/OmedHossaini" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 "/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 "/>
+                            <image class="home__blob-img" x="50" y="60" href="./profilepci3.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About Me</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="./profile pic 1.png" alt="profilepic">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'm Omed</h2>
+                        <p class="about__text">Welcome to my world! I am a passionate full-stack web developer, dedicated to crafting
+                            beautiful and functional web applications. My skill set includes HTML, CSS, JavaScript, Node.js,
+                            MongoDB, and React.</p>
+                          <br>
+                          <p class="about__text">Outside of coding, I enjoy a variety of hobbies that keep me balanced and inspired.
+                            When I'm not immersed in the world of web development, you can find me:
+                          </p>
+                          <br>
+                          <p class="about__text">
+                            <i class='bx bx-right-arrow-circle' ></i></i>Playing video games <i class='bx bxs-game bx-fade-up' ></i>
+                        <br>
+                        <i class='bx bx-right-arrow-circle' ></i></i>Shooting hoops on the basketball court <i class='bx bxs-basketball bx-tada' ></i>
+                        <br>
+                        <i class='bx bx-right-arrow-circle' ></i></i></i>Watching YouTube videos <i class='bx bxs-videos bx-flashing' ></i>
+                        <br>
+                        <i class='bx bx-right-arrow-circle' ></i></i></i>Expressing my creativity through drawing <i class='bx bx-pencil bx-burst' ></i>
+                          </p>
+                          <br>
+                          <p class="about__text">
+                            I believe that a diverse set of interests fuels creativity and helps me approach
+                            coding challenges with a fresh perspective. Let's build something amazing together!
+                          </p></p>
+                                    
+                    </div>                                   
+                </div>
+            </section>
+
+          <!--===== SKILLS =====-->
+<section class="skills section" id="skills">
+
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills__container bd-grid">
+
+        <div>
+            <h2 class="skills__subtitle">Professional Skills</h2>
+            <p class="skills__text">As a full-stack web developer, I've gained experience with a diverse set of languages and frameworks.
+                Below are some of the key technologies I've worked with:</p>
+            <div class="skills__data">
+                <div class="skills__names">
+                    <i class='bx bxl-html5 skills__icon'></i>
+                    <span class="skills__name">HTML5</span>
+                </div>
+                <div class="skills__bar skills__html"></div>
+                <div>
+                    <span class="skills__percentage">95%</span>
+                </div>
+            </div>
+            
+            <div class="skills__data">
+                <div class="skills__names">
+                    <i class='bx bxl-css3 skills__icon'></i>
+                    <span class="skills__name">CSS3</span>
+                </div>
+                <div class="skills__bar skills__css">
+                </div>
+                <div>
+                    <span class="skills__percentage">85%</span>
+                </div>
+            </div>
+
+            <div class="skills__data">
+                <div class="skills__names">
+                    <i class='bx bxl-javascript skills__icon'></i>
+                    <span class="skills__name">JavaScript</span>
+                </div>
+                <div class="skills__bar skills__js">
+                </div>
+                <div>
+                    <span class="skills__percentage">65%</span>
+                </div>
+            </div>
+        </div>
+        <div class="additional-skills">
+            <h2 class="skills__subtitle">Additional Skills</h2>
+            <p class="skills__text">I work with additional technologies to enhance my skills as a developer. Some of these include:</p>
+            <p class="skills__text">MongoDB</p>
+            <p class="skills__text">Git & GitHub</p>
+            <p class="skills__text">Yarn</p>
+        </div>
+    </div>
+    <p class="skills__text skills__additional-info">This is not an exhaustive list, and I'm always excited to learn and explore new technologies.</p>
+</section>
+            
+
+            <!--===== project =====-->
+            <section class="project section" id="project">
+                <h2 class="section-title">Projects</h2>
+              
+                <div class="project__container bd-grid">
+                  <div class="project__item">
+                    <a href="" class="project__img">
+                      <img src="./clegj6g4f51c72urtetg - Trim.gif" alt="">
+                    </a>
+                    <div class="project__text">
+                      <h3>ROBO Watches - Your Time, Your Style</h3>
+                      <p>
+                        Explore, buy, and effortlessly manage your cart at ROBO Watches. Enjoy a seamless shopping experience with persistent storage. Our RESTful Node server ensures efficient, real-time updates for a smooth purchasing process.
+                      </p>
+                      <p>
+                        <strong>Technologies used: Node.js, React, RESTful API, Database Integration</strong>
+                      </p>
+                    </div>
+                  </div>
+              
+                  <div class="project__item">
+                    <a href="" class="project__img">
+                      <img src="./clicker.gif" alt="">
+                    </a>
+                    <div class="project__text">
+                     <h3>Cookie Clicker Clone</h3>
+                      <p>
+                        A fun and addictive Cookie Clicker game clone where users can click on a cookie to earn points.
+                        Upgrade your clicking power and see how many cookies you can collect!
+                      </p>
+                      <p>
+                        <strong>Technologies used: HTML, CSS, JavaScript (React)</strong>
+                      </p>
+                    </div>
+                  </div>
+              
+                  <div class="project__item">
+                    <a href="" class="project__img">
+                      <img src="./Untitled video - Made with Clipchamp.gif" alt="">
+                    </a>
+                    <div class="project__text">
+                      <!-- Repeat the same structure for each project -->
+                      <h3>The Pig Game</h3>
+                      <p>
+                        Enjoy the classic Pig Game, a turn-based dice game where two players compete to reach 20 points.
+                        Roll the dice to accumulate points, but be careful, rolling a 1 resets your score!
+                        Make strategic decisions on when to "Hold" to secure your points and win the game.
+                      </p>
+                      <p>
+                        <strong>Technologies used: HTML, CSS, JavaScript</strong>
+                      </p>
+                    </div>
+                  </div>
+              </section>
+
+            <!-- HTML Form -->
+<section class="contact section" id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact__container bd-grid">
+      <form action="/submit" class="contact__form" method="POST">
+        <input type="text" placeholder="Name" class="contact__input" name="name">
+        <input type="email" placeholder="Email" class="contact__input" name="email">
+        <textarea name="message" placeholder="Shoot Me A Message!" cols="0" rows="10" class="contact__input"></textarea>
+        <input type="submit" value="Send" class="contact__button button">
+      </form>
+    </div>
+  </section>
+  
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Connect with Me</p>
+            <p class="footer__text">Thank you for visiting my portfolio! Let's stay in touch and build something amazing together. Feel free to reach out on social media or drop me an email.</p>
+            <br>
+            <div class="footer__social">
+                <a href="https://www.facebook.com/omed.hossaini/" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/omedhossaini/" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/omed-hossaini-a25b942a0/" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/OmedHossaini" class="footer__icon"><i class='bx bxl-github'></i></a>
+                <a href="omedhossainiomedhossaini123@hotmail.com" class="footer__icon"><i class='bx bx-mail-send'></i></a>
+            </div>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
