@@ -329,7 +329,22 @@ img {
   width: 65%;
 }
 
-.skills__ux {
+.skills__mongodb {
+  width: 70%;
+}
+.skills__github {
+  width: 70%;
+}
+
+.skills__yarn {
+  width: 85%;
+}
+
+.skills__react {
+  width: 65%;
+}
+
+.skills__node {
   width: 85%;
 }
 

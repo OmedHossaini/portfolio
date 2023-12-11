@@ -42,15 +42,64 @@ function Skills() {
               <span className="skills__percentage"></span>
             </div>
           </div>
-        </div>
 
-        <div className="additional-skills">
-          <h2 className="skills__subtitle">Additional Skills</h2>
-          <p className="skills__text">I work with additional technologies to enhance my skills as a developer. Some of these include:</p>
-          <p className="skills__text">MongoDB</p>
-          <p className="skills__text">Git & GitHub</p>
-          <p className="skills__text">Yarn</p>
+
+        <div>
+          <div className="skills__data">
+            <div className="skills__names">
+            <i className='bx bxl-mongodb skills__icon'></i>
+              <span className="skills__name">MongoDB</span>
+            </div>
+            <div className="skills__bar skills__mongodb"></div>
+            <div>
+              <span className="skills__percentage"></span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <div className="skills__names">
+              <i className='bx bxl-github skills__icon'></i>
+              <i className='bx bxl-git skills__icon'></i>
+              <span className="skills__name">Git & GitHub</span>
+            </div>
+            <div className="skills__bar skills__github"></div>
+            <div>
+              <span className="skills__percentage"></span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <div className="skills__names">
+              <i className='bx bxl-yarn skills__icon'></i>
+              <span className="skills__name">Yarn & npm</span>
+            </div>
+            <div className="skills__bar skills__yarn"></div>
+            <div>
+              <span className="skills__percentage"></span>
+            </div>
+          </div>
+          <div className="skills__data">
+            <div className="skills__names">
+            <i className='bx bxl-react skills__icon'></i>
+              <span className="skills__name">React.js</span>
+            </div>
+            <div className="skills__bar skills__react"></div>
+            <div>
+              <span className="skills__percentage"></span>
+            </div>
+          </div>
+          <div className="skills__data">
+            <div className="skills__names">
+              <i className='bx bxl-yarn skills__icon'></i>
+              <span className="skills__name">Node.js</span>
+            </div>
+            <div className="skills__bar skills__node"></div>
+            <div>
+              <span className="skills__percentage"></span>
+            </div>
+          </div>
         </div>
+      </div>
       </div>
 
       <p className="skills__text skills__additional-info">This is not an exhaustive list, and I'm always excited to learn and explore new technologies.</p>
