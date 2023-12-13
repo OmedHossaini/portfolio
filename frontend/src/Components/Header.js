@@ -14,7 +14,8 @@ function Header() {
             <li className="nav__item"><a href="#about" className="nav__link">About Me</a></li>
             <li className="nav__item"><a href="#skills" className="nav__link">Skills</a></li>
             <li className="nav__item"><a href="#project" className="nav__link">Projects</a></li>
-            <li className="nav__item"><a href="#contact" className="nav__link">Contact</a></li>
+            <li className="nav__item"><a href="#CV" className="nav__link">CV</a></li>
+
           </ul>
         </div>
 

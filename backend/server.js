@@ -1,4 +1,3 @@
-// Server code
 'use strict';
 
 const express = require('express');

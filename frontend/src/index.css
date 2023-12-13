@@ -487,13 +487,6 @@ img {
     column-gap: 2rem;
     padding-top: 2rem;
   }
-  .contact__form {
-    width: 360px;
-    padding-top: 2rem;
-  }
-  .contact__container {
-    justify-items: center;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -564,4 +557,42 @@ img {
   .home__img {
     width: 450px;
   }
+}
+
+/* ===== CV =====*/
+.cv-section {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.cv-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.cv-title {
+  font-size: 2rem;
+  color: #333; 
+}
+
+.cv-description {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.cv-download-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s;
+}
+
+.cv-download-button:hover {
+  background-color: #45a049; 
 }
