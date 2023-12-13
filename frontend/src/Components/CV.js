@@ -2,7 +2,7 @@ import React from 'react';
 
 
 function CV() {
-  const cvUrl = 'https://drive.google.com/file/d/1Wdn7uQtq_ud_ay--bI03tilRHJusnq1N/view?usp=sharing';
+  const cvUrl = 'https://drive.google.com/file/d/1aXQvYC_jRCBOFa_S62rkZ3jsXAeyQoXv/view?usp=sharing';
 
   return (
     <section id="CV" className="cv-section">
