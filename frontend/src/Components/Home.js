@@ -5,7 +5,7 @@ function Home() {
     <section className="home bd-grid" id="home">
       <div className="home__data">
         <h1 className="home__title">Hi,<br />I'm <span className="home__title-color">Omed</span><br />a Fullstack Web Dev</h1>
-        <a href="#contact" className="button">Contact</a>
+        <a href="#CV" className="button">Contact</a>
       </div>
 
       <div className="home__social">
