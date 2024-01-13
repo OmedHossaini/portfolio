@@ -17,7 +17,7 @@ function Skills() {
             </div>
             <div className="skills__bar skills__html"></div>
             <div>
-              <span className="skills__percentage"></span>
+              <span className="skills__percentage">1 Year</span>
             </div>
           </div>
 
@@ -28,7 +28,7 @@ function Skills() {
             </div>
             <div className="skills__bar skills__css"></div>
             <div>
-              <span className="skills__percentage"></span>
+              <span className="skills__percentage">1 Year</span>
             </div>
           </div>
 
@@ -39,7 +39,7 @@ function Skills() {
             </div>
             <div className="skills__bar skills__js"></div>
             <div>
-              <span className="skills__percentage"></span>
+              <span className="skills__percentage">1 Year</span>
             </div>
           </div>
 
@@ -52,7 +52,7 @@ function Skills() {
             </div>
             <div className="skills__bar skills__mongodb"></div>
             <div>
-              <span className="skills__percentage"></span>
+              <span className="skills__percentage">1 Year</span>
             </div>
           </div>
 
@@ -64,7 +64,7 @@ function Skills() {
             </div>
             <div className="skills__bar skills__github"></div>
             <div>
-              <span className="skills__percentage"></span>
+              <span className="skills__percentage">1 Year</span>
             </div>
           </div>
 
@@ -75,7 +75,7 @@ function Skills() {
             </div>
             <div className="skills__bar skills__yarn"></div>
             <div>
-              <span className="skills__percentage"></span>
+              <span className="skills__percentage">1 Year</span>
             </div>
           </div>
           <div className="skills__data">
@@ -85,7 +85,7 @@ function Skills() {
             </div>
             <div className="skills__bar skills__react"></div>
             <div>
-              <span className="skills__percentage"></span>
+              <span className="skills__percentage">1 Year</span>
             </div>
           </div>
           <div className="skills__data">
@@ -95,7 +95,7 @@ function Skills() {
             </div>
             <div className="skills__bar skills__node"></div>
             <div>
-              <span className="skills__percentage"></span>
+              <span className="skills__percentage">1 Year</span>
             </div>
           </div>
         </div>

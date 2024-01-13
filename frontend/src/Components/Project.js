@@ -52,7 +52,7 @@ function Projects() {
 
         <div className="project__item">
           <a href="https://pig-game-ashy.vercel.app/" className="project__img">
-            <img src="./Untitled video - Made with Clipchamp.gif" alt="" />
+            <img src="piggame.gif" alt="" />
           </a>
           <div className="project__text">
             <h3>The Pig Game</h3>
@@ -91,6 +91,26 @@ function Projects() {
     </p>
   </div>
 </div>
+<div className="project__item">
+          <a href="https://tori-stecum-traduction-et-r-vison.vercel.app/" className="project__img">
+            <img src="Tori.gif" alt="Translation Website" />
+          </a>
+          <div className="project__text">
+            <h3>Tori Stecum Traduction et Révison</h3>
+            <a href="https://github.com/OmedHossaini/Tori-Stecum-Traduction-et-R-vison" className="github-button">
+              <i className='bx bxl-github'></i> GitHub
+            </a>
+            <br></br>
+            <br></br>
+            <p>
+A Freelance Translation and Revison website that offers services for documents to be translated from French to English or vice versa.
+            </p>
+            <br></br>
+            <p>
+              <strong>Technologies used: HTML, CSS, JavaScript, Database Integration</strong>
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
