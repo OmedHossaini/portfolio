@@ -17,7 +17,7 @@ function Skills() {
             </div>
             <div className="skills__bar skills__html"></div>
             <div>
-              <span className="skills__percentage">1 Year</span>
+              <span className="skills__percentage"></span>
             </div>
           </div>
 
@@ -28,7 +28,7 @@ function Skills() {
             </div>
             <div className="skills__bar skills__css"></div>
             <div>
-              <span className="skills__percentage">1 Year</span>
+              <span className="skills__percentage"></span>
             </div>
           </div>
 
@@ -39,7 +39,7 @@ function Skills() {
             </div>
             <div className="skills__bar skills__js"></div>
             <div>
-              <span className="skills__percentage">1 Year</span>
+              <span className="skills__percentage"></span>
             </div>
           </div>
 
@@ -47,12 +47,12 @@ function Skills() {
         <div>
           <div className="skills__data">
             <div className="skills__names">
-            <i className='bx bxl-mongodb skills__icon'></i>
-              <span className="skills__name">MongoDB</span>
+            <i className='bx bxl-python skills__icon'></i>
+              <span className="skills__name">Python</span>
             </div>
             <div className="skills__bar skills__mongodb"></div>
             <div>
-              <span className="skills__percentage">1 Year</span>
+              <span className="skills__percentage"></span>
             </div>
           </div>
 
@@ -64,7 +64,7 @@ function Skills() {
             </div>
             <div className="skills__bar skills__github"></div>
             <div>
-              <span className="skills__percentage">1 Year</span>
+              <span className="skills__percentage"></span>
             </div>
           </div>
 
@@ -75,27 +75,27 @@ function Skills() {
             </div>
             <div className="skills__bar skills__yarn"></div>
             <div>
-              <span className="skills__percentage">1 Year</span>
+              <span className="skills__percentage"></span>
             </div>
           </div>
           <div className="skills__data">
             <div className="skills__names">
             <i className='bx bxl-react skills__icon'></i>
-              <span className="skills__name">React.js</span>
+              <span className="skills__name">React.js & Node.js</span>
             </div>
             <div className="skills__bar skills__react"></div>
             <div>
-              <span className="skills__percentage">1 Year</span>
+              <span className="skills__percentage"></span>
             </div>
           </div>
           <div className="skills__data">
             <div className="skills__names">
               <i className='bx bxl-yarn skills__icon'></i>
-              <span className="skills__name">Node.js</span>
+              <span className="skills__name">Java</span>
             </div>
             <div className="skills__bar skills__node"></div>
             <div>
-              <span className="skills__percentage">1 Year</span>
+              <span className="skills__percentage"></span>
             </div>
           </div>
         </div>

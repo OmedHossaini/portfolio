@@ -1,72 +1,49 @@
-'use strict';
-
 const express = require('express');
-const { MongoClient } = require('mongodb');
-const bodyParser = require('body-parser');
+const nodemailer = require('nodemailer');
+const cors = require('cors');
 require('dotenv').config();
 
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+
 const app = express();
-const PORT = process.env.PORT || 3000;
-const MONGO_URI = process.env.MONGO_URI;
+const PORT = process.env.PORT || 5000;
 
-const options = {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-};
+app.use(cors());
+app.use(express.json());
 
-app.use(bodyParser.json());
-
-const connectToMongo = async () => {
-  const client = new MongoClient(MONGO_URI, options);
+// Server - /api/submitForm route
+app.post('/api/submitForm', async (req, res) => {
   try {
-    await client.connect();
-    return client;
-  } catch (error) {
-    console.error('Error connecting to MongoDB: ', error);
-    throw error;
-  }
-};
+    const formData = req.body;
+    console.log('Received form data:', formData);
 
-const saveContactToDatabase = async (contactData) => {
-  const client = await connectToMongo();
-
-  try {
-    const database = client.db('Portfolio');
-    const contactsCollection = database.collection('Contacts');
-    await contactsCollection.insertOne(contactData);
-  } catch (error) {
-    console.error('Error saving contact to database: ', error);
-    throw error;
-  } finally {
-    await client.close();
-  }
-};
-
-app.post('/submit', async (req, res) => {
-  const { name, email, message } = req.body;
-
-  try {
-    await saveContactToDatabase({
-      name,
-      email,
-      message,
+    // Send email using nodemailer
+    const transporter = nodemailer.createTransport({
+      service: 'outlook',
+      auth: {
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASSWORD,
+      },
     });
 
-    res.status(200).json({
-      status: 200,
-      success: true,
-      message: 'Contact saved successfully!',
-    });
+    const mailOptions = {
+      from: process.env.EMAIL_USER,
+      to: 'omed_hossaini@outlook.com',
+      subject: 'New Contact Form Submission',
+      text: `Name: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`,
+    };
+
+    await transporter.sendMail(mailOptions);
+    console.log('Email sent successfully');
+
+    res.status(201).json({ message: 'Form submitted successfully' });
   } catch (error) {
-    console.error('Error processing contact form: ', error);
-    res.status(500).json({
-      status: 500,
-      success: false,
-      message: 'Internal Server Error',
-    });
+    console.error('Error submitting form:', error.message || error);
+    res.status(500).json({ message: 'Internal Server Error', details: 'Failed to process the form submission', error: error.message || error });
   }
 });
 
+// Start the server
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server is running on port ${PORT}`);
 });

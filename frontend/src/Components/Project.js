@@ -110,6 +110,31 @@ A Freelance Translation and Revison website that offers services for documents t
               <strong>Technologies used: HTML, CSS, JavaScript, Database Integration</strong>
             </p>
           </div>
+      </div>
+      <div className="project__item">
+          <a href="https://tori-stecum-traduction-et-r-vison.vercel.app/" className="project__img">
+            <img src="HD.gif" alt="Notes" />
+          </a>
+          <div className="project__text">
+            <h3>HD Academy Notes</h3>
+            <a href="https://github.com/OmedHossaini/HDAcademy" className="github-button">
+              <i className='bx bxl-github'></i> GitHub Frontend
+            </a>
+            <br></br>
+            <a href="https://github.com/OmedHossaini/HDAcademy-api" className="github-button">
+              <i className='bx bxl-github'></i> GitHub Backend
+            </a>
+            <br></br>
+            <br></br>
+            <p>
+
+            At HD Academy in Brossard, Canada, I built a secure MERN app with JWT-based authentication. The backend includes user registration/login with Bcrypt password hashing, and the React frontend ensures seamless note management with React Router.
+            </p>
+            <br></br>
+            <p>
+              <strong>Technologies used: React.js, HTML, CSS, JavaScript, npm, GitHub, Node.js, Redux, Database Integration</strong>
+            </p>
+          </div>
         </div>
       </div>
     </section>

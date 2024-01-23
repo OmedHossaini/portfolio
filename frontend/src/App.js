@@ -5,8 +5,9 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Skills from './Components/Skills';
 import Projects from './Components/Project';
-import CV from './Components/CV';
 import Footer from './Components/Footer';
+import ContactForm from './Components/ContactMe';
+
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <About />
         <Skills />
         <Projects />
-        <CV />
+        <ContactForm />   
       </main>
       <Footer />
     </div>
