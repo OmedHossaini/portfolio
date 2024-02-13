@@ -112,7 +112,7 @@ A Freelance Translation and Revison website that offers services for documents t
           </div>
       </div>
       <div className="project__item">
-          <a href="https://tori-stecum-traduction-et-r-vison.vercel.app/" className="project__img">
+          <a href="https://hdacademynotes.onrender.com/" className="project__img">
             <img src="HD.gif" alt="Notes" />
           </a>
           <div className="project__text">
