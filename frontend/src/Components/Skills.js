@@ -12,6 +12,17 @@ function Skills() {
 
           <div className="skills__data">
             <div className="skills__names">
+              <i className='bx bxl-javascript skills__icon'></i>
+              <span className="skills__name">JavaScript</span>
+            </div>
+            <div className="skills__bar skills__js"></div>
+            <div>
+              <span className="skills__percentage"></span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <div className="skills__names">
               <i className='bx bxl-html5 skills__icon'></i>
               <span className="skills__name">HTML5</span>
             </div>
@@ -32,25 +43,24 @@ function Skills() {
             </div>
           </div>
 
+        <div>
           <div className="skills__data">
             <div className="skills__names">
-              <i className='bx bxl-javascript skills__icon'></i>
-              <span className="skills__name">JavaScript</span>
+            <i className='bx bxl-nodejs skills__icon'></i>
+              <span className="skills__name">Node.js</span>
             </div>
-            <div className="skills__bar skills__js"></div>
+            <div className="skills__bar skills__node"></div>
             <div>
               <span className="skills__percentage"></span>
             </div>
           </div>
 
-
-        <div>
           <div className="skills__data">
             <div className="skills__names">
-            <i className='bx bxl-python skills__icon'></i>
-              <span className="skills__name">Python</span>
+            <i className='bx bxl-react skills__icon'></i>
+              <span className="skills__name">React.js</span>
             </div>
-            <div className="skills__bar skills__mongodb"></div>
+            <div className="skills__bar skills__react"></div>
             <div>
               <span className="skills__percentage"></span>
             </div>
@@ -78,22 +88,13 @@ function Skills() {
               <span className="skills__percentage"></span>
             </div>
           </div>
+          
           <div className="skills__data">
             <div className="skills__names">
-            <i className='bx bxl-react skills__icon'></i>
-              <span className="skills__name">React.js & Node.js</span>
+            <i class='bx bxl-python skills__icon'></i>
+              <span className="skills__name">Python</span>
             </div>
-            <div className="skills__bar skills__react"></div>
-            <div>
-              <span className="skills__percentage"></span>
-            </div>
-          </div>
-          <div className="skills__data">
-            <div className="skills__names">
-              <i className='bx bxl-yarn skills__icon'></i>
-              <span className="skills__name">Java</span>
-            </div>
-            <div className="skills__bar skills__node"></div>
+            <div className="skills__bar skills__python"></div>
             <div>
               <span className="skills__percentage"></span>
             </div>

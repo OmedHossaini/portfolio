@@ -5,12 +5,12 @@ function Home() {
     <section className="home bd-grid" id="home">
       <div className="home__data">
         <h1 className="home__title">Hi,<br />I'm <span className="home__title-color">Omed</span><br />a Fullstack Web Dev</h1>
-        <a href="#CV" className="button">Contact</a>
       </div>
 
       <div className="home__social">
         <a href="https://www.linkedin.com/in/omed-hossaini-a25b942a0/" className="home__social-icon"><i className='bx bxl-linkedin'></i></a>
         <a href="https://github.com/OmedHossaini" className="home__social-icon"><i className='bx bxl-github' ></i></a>
+        <a href="mailto:omed_hossaini@outlook.com" className="home__social-icon"><i className='bx bx-mail-send'></i></a>
       </div>
 
       <div className="home__img">

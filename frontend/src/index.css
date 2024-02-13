@@ -349,6 +349,10 @@ img {
   width: 100%;
 }
 
+.skills__python {
+  width: 100%;
+}
+
 .skills__img {
   border-radius: .5rem;
 }

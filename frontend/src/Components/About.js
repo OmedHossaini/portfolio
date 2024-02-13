@@ -12,7 +12,7 @@ function About() {
 
         <div>
           <h2 className="about__subtitle">Welcome to my world!</h2>
-          <p className="about__text">I am a passionate full-stack web developer, dedicated to crafting beautiful and functional web applications. My skill set includes HTML, CSS, JavaScript, Node.js, MongoDB, and React.</p>
+          <p className="about__text">I am a passionate full-stack web developer, dedicated to crafting beautiful and functional web applications. My skill set includes<strong> HTML, CSS, JavaScript, Node.js,</strong> and <strong>React</strong></p>
 <br></br>
           <p className="about__text">Outside of coding, I enjoy a variety of hobbies that keep me balanced and inspired. When I'm not immersed in the world of web development, you can find me:</p>
 <br></br>
