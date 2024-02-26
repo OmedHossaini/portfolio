@@ -77,17 +77,6 @@ function Skills() {
               <span className="skills__percentage"></span>
             </div>
           </div>
-
-          <div className="skills__data">
-            <div className="skills__names">
-              <i className='bx bxl-yarn skills__icon'></i>
-              <span className="skills__name">Yarn & npm</span>
-            </div>
-            <div className="skills__bar skills__yarn"></div>
-            <div>
-              <span className="skills__percentage"></span>
-            </div>
-          </div>
           
           <div className="skills__data">
             <div className="skills__names">

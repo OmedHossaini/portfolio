@@ -7,17 +7,14 @@ function Projects() {
 
       <div className="project__container bd-grid">
         <div className="project__item">
-          <a href="" className="project__img">
-            <img src="./clegj6g4f51c72urtetg - Trim.gif" alt="" />
-          </a>
+
+            <img src="./clegj6g4f51c72urtetg - Trim.gif" />
+
           <div className="project__text">
             <h3>ROBO Watches - Your Time, Your Style</h3>
             <a href="https://github.com/OmedHossaini/E-Commerce-ROBO" className="github-button">
               <i className='bx bxl-github'></i> GitHub
             </a>
-            <p>
-              Note: The website for this project has not been deployed yet.
-            </p>
             <br></br>
             <br></br>
             <p>
@@ -70,17 +67,13 @@ function Projects() {
           </div>
         </div>
         <div className="project__item">
-  <a href="" className="project__img">
     <img src="final project video - Made with Clipchamp.gif" alt="Workout Tracker App" />
-  </a>
+  
   <div className="project__text">
     <h3>Workout Tracker App</h3>
     <a href="https://github.com/OmedHossaini/Final_Project" className="github-button">
       <i className='bx bxl-github'></i> GitHub
     </a>
-    <p>
-              Note: The website for this project has not been deployed yet.
-            </p>
     <br></br>
     <br></br>
     <p>
