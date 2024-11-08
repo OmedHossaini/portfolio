@@ -15,7 +15,7 @@ const CV = () => {
           rel="noopener noreferrer"
           className="cv-download-button"
         >
-          Download CV
+          Download 
         </a>
       </div>
     </section>
