@@ -11,7 +11,7 @@ function Projects() {
             <img src="./clegj6g4f51c72urtetg - Trim.gif" />
 
           <div className="project__text">
-            <h3>ROBO Watches - Your Time, Your Style</h3>
+            <h3>R.O.B.O Watches - Your Time, Your Style</h3>
             <a href="https://github.com/OmedHossaini/E-Commerce-ROBO" className="github-button">
               <i className='bx bxl-github'></i> GitHub
             </a>
