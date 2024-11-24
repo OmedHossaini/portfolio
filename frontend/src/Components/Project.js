@@ -18,7 +18,7 @@ function Projects() {
             <br></br>
             <br></br>
             <p>
-              Explore, buy, and effortlessly manage your cart at ROBO Watches. Enjoy a seamless shopping experience with persistent storage. Our RESTful Node server ensures efficient, real-time updates for a smooth purchasing process.
+            Explore, buy, and effortlessly manage your cart at ROBO Watches. Enjoy a seamless shopping experience with persistent storage. Our RESTful Node server ensures efficient, real-time updates for a smooth purchasing process.
             </p>
             <p>
               <strong>Technologies used: Node.js, React, RESTful API, Database Integration</strong>
