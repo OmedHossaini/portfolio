@@ -9,7 +9,7 @@ function Footer() {
       <div className="footer__social">
         <a href="https://www.linkedin.com/in/omed-hossaini-a25b942a0/" className="footer__icon"><i className='bx bxl-linkedin'></i></a>
         <a href="https://github.com/OmedHossaini" className="footer__icon"><i className='bx bxl-github'></i></a>
-        <a href="mailto:omedhossainiomedhossaini123@hotmail.com" className="footer__icon"><i className='bx bx-mail-send'></i></a>
+        <a href="mailto:omed_hossaini@outlook.com" className="footer__icon"><i className='bx bx-mail-send'></i></a>
       </div>
     </footer>
   );
