@@ -85,7 +85,7 @@ function Projects() {
   </div>
 </div>
 <div className="project__item">
-          <a href="https://tori-stecum-traduction-et-r-vison.vercel.app/" className="project__img">
+          <a href="https://www.toristecumtraductionandrevision.site/" className="project__img">
             <img src="Tori.gif" alt="Translation Website" />
           </a>
           <div className="project__text">
