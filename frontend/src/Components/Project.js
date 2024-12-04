@@ -59,7 +59,7 @@ function Projects() {
             <br></br>
             <br></br>
             <p>
-              Enjoy the classic Pig Game, a turn-based dice game where two players compete to reach 20 points. Roll the dice to accumulate points, but be careful, rolling a 1 resets your score! Make strategic decisions on when to "Hold" to secure your points and win the game.
+            Enjoy the classic Pig Game, a turn-based dice game where two players compete to reach 20 points. Roll the dice to accumulate points, but be careful, rolling a 1 resets your score! Make strategic decisions on when to "Hold" to secure your points and win the game.
             </p>
             <p>
               <strong>Technologies used: HTML, CSS, JavaScript</strong>
