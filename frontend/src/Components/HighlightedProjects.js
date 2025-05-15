@@ -17,8 +17,8 @@ function HighlightedProjects() {
       id: 'farmer-flow',
       title: 'Farmer Flow - PolyHacks 2025',
       description: 'Built React Native/TypeScript mobile app featuring weather forecasting, plant disease identification via camera, and inventory management with Firebase integration.',
-      image: './farmer-flow.gif',
-      technologies: ['TypeScript', 'JavaScript', 'Expo', 'Firebase', 'React Native', 'Express', 'Node.js'],
+      image: './p1.gif',
+      technologies: ['TypeScript', 'Expo', 'Firebase', 'React Native', 'Express'],
       github: 'https://github.com/OmedHossaini',
       liveLink: null
     },

@@ -84,8 +84,8 @@ function ProjectDetail() {
         
         <p>Another challenge was ensuring the app would work in areas with limited connectivity, which is common in rural farming regions. We implemented offline-first capabilities with background synchronization to address this issue.</p>
       `,
-      image: './farmer-flow.gif',
-      additionalImages: ['./farmer-flow1.jpg', './farmer-flow2.jpg', './farmer-flow3.jpg'],
+      image: '../p1.gif',
+      additionalImages: ['../p1.png', '../p2.png', '../p3.png'],
       technologies: ['TypeScript', 'JavaScript', 'Expo', 'Firebase', 'React Native', 'Express', 'Node.js', 'Chart.js', 'OpenAI API'],
       github: 'https://github.com/OmedHossaini',
       liveLink: null,
