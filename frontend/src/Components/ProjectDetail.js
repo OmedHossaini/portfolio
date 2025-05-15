@@ -126,8 +126,8 @@ function ProjectDetail() {
         
         <p>Another challenge was managing data synchronization between offline and online states. I implemented a robust queueing system that stores changes locally and syncs them when a connection becomes available, ensuring data integrity across all usage scenarios.</p>
       `,
-      image: './the-crib.gif',
-      additionalImages: ['./the-crib1.jpg', './the-crib2.jpg', './the-crib3.jpg'],
+      image: '../crib1.png',
+      additionalImages: ['../crib2.png', '../crib3.png', '../crib4.png'],
       technologies: ['Dart', 'JavaScript', 'Flutter', 'AWS', 'Provider', 'AWS Amplify', 'DynamoDB', 'Cognito'],
       github: 'https://github.com/OmedHossaini',
       liveLink: null

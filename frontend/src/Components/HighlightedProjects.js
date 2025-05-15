@@ -26,7 +26,7 @@ function HighlightedProjects() {
       id: 'the-crib',
       title: 'The Crib',
       description: 'Architected a Flutter mobile app with Provider state management and real-time data synchronization. Implemented AWS Amplify integration for authentication, API, and storage.',
-      image: './the-crib.gif',
+      image: './crib1.png',
       technologies: ['Dart', 'JavaScript', 'Flutter', 'AWS'],
       github: 'https://github.com/OmedHossaini',
       liveLink: null
