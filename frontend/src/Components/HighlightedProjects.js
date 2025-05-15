@@ -20,7 +20,7 @@ function HighlightedProjects() {
       image: './p1.gif',
       technologies: ['TypeScript', 'Expo', 'Firebase', 'React Native', 'Express'],
       github: 'https://github.com/OmedHossaini',
-      liveLink: null
+      liveLink: 'https://devpost.com/software/farmerflow-ikzya7'
     },
     {
       id: 'the-crib',
