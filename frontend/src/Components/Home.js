@@ -5,7 +5,7 @@ function Home() {
   const professions = [
     'Full Stack Developer', 
     'JavaScript Developer', 
-    'React Developer',
+    'React.js Developer',
     'Software Engineer'
   ];
 

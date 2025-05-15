@@ -185,19 +185,21 @@ img {
   right: 0;
 }
 
-/*===== HOME =====*/
+/* Updated Home Section Styles */
 .home {
   position: relative;
   row-gap: 5rem;
   padding: 4rem 0 5rem;
   margin-top: 100px;
   margin-bottom: 250px;
-  
-
+  display: grid;
+  grid-template-columns: 1fr; /* Default for mobile */
 }
 
 .home__data {
   align-self: center;
+  z-index: 1; /* Ensure text is above other elements */
+  max-width: 60%; /* Limit width to prevent overlap */
 }
 
 .home__title {
@@ -209,9 +211,44 @@ img {
   color: var(--first-color);
 }
 
+/* Fixed height container for profession to prevent movement */
+.profession-container {
+  min-height: 2.5em; /* Adjust based on your font size */
+  display: flex;
+  align-items: flex-start;
+}
+
+.profession {
+  position: relative;
+  display: inline-block;
+  min-width: 240px; /* Set to width of longest profession */
+}
+
+.home__description {
+  margin-bottom: var(--mb-4);
+}
+
+.home__button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: .75rem 2.5rem;
+  font-weight: var(--font-semi);
+  border-radius: .5rem;
+  transition: .3s;
+}
+
+.home__button:hover {
+  box-shadow: 0 10px 36px rgba(0, 0, 0, .15);
+}
+
 .home__social {
   display: flex;
   flex-direction: column;
+  z-index: 1;
+  position: relative;
+  /* Move social icons lower */
+  margin-top: 350px;
 }
 
 .home__social-icon {
@@ -230,6 +267,7 @@ img {
   right: 0;
   bottom: 0;
   width: 260px;
+  z-index: 0; /* Place behind the text */
 }
 
 .home__blob {
@@ -240,7 +278,67 @@ img {
   width: 360px;
 }
 
+/* Media Queries */
+@media screen and (min-width: 576px) {
+  .home {
+    grid-template-columns: 1fr 1fr; /* Two columns for tablets and up */
+    column-gap: 2rem;
+  }
+  
+  .home__data {
+    grid-column: 1/2;
+    max-width: 100%;
+  }
+  
+  .home__img {
+    right: 10%; /* Give more space on right side */
+    width: 300px;
+  }
+  
+  .home__social {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    margin-top: 0; /* Reset margin since we're using absolute positioning */
+  }
+}
 
+@media screen and (min-width: 768px) {
+  .home {
+    padding: 8rem 0 2rem;
+    grid-template-columns: 3fr 2fr; /* More space for text */
+    column-gap: 4rem; /* Increased gap between columns */
+  }
+  
+  .home__data {
+    max-width: 100%;
+  }
+  
+  .home__img {
+    right: 5%;
+    width: 350px;
+  }
+  
+  .home__social {
+    bottom: 15%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .home {
+    padding: 10rem 0 2rem;
+    column-gap: 6rem; /* Even more space between text and image */
+  }
+  
+  .home__img {
+    right: 0;
+    width: 400px;
+  }
+  
+  .home__social {
+    bottom: 20%;
+  }
+}
 /* ===== ABOUT =====*/
 .about__container {
   row-gap: 2rem;
