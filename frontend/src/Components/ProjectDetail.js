@@ -43,8 +43,8 @@ function ProjectDetail() {
         
         <p>Another challenge was securing the contact form against spam and abuse. I implemented server-side validation, rate limiting, and email verification to ensure the system was robust and secure.</p>
       `,
-      image: 'Tori1.png',
-      additionalImages: ['../assets/Tori1.png', './Tori1.png', '../Tori1.png'],
+      image: '/Tori1.png', // Use absolute path from public folder (note the leading slash)
+      additionalImages: ['/Tori2.png', '/Tori3.png', '/Tori4.png', '/Tori5.png'],
       technologies: ['JavaScript', 'HTML', 'CSS', 'Express', 'Node.js', 'React', 'Context API', 'Nodemailer'],
       github: 'https://github.com/OmedHossaini/Tori-Stecum-Traduction-et-R-vison',
       liveLink: 'https://www.toristecumtraductionandrevision.site/'
