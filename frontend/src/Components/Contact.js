@@ -55,7 +55,7 @@ function Contact() {
             <p className="contact__resume-description">
               Want to learn more about my experience and skills? Download my resume.
             </p>
-            <a href="https://drive.google.com/file/d/1byf0LlTGZ9riox4om9ZVnoD2aIQ160h6/view?usp=sharing" 
+            <a href="https://drive.google.com/file/d/183ym90BzdXO81Arftp6MlYEW8MqiCI-q/view?usp=sharing" 
                className="contact__resume-button"
                target="_blank" 
                rel="noopener noreferrer">
