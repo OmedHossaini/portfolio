@@ -2,7 +2,12 @@ import React, { useState, useEffect } from 'react';
 
 function Home() {
   const [professionIndex, setProfessionIndex] = useState(0);
-  const professions = ['Fullstack Web Dev', 'Programmer', 'Developer', 'Software Engineer'];
+  const professions = [
+    'Full Stack Developer', 
+    'JavaScript Developer', 
+    'React.js Developer',
+    'Software Engineer'
+  ];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -20,16 +25,28 @@ function Home() {
           I'm <span className="home__title-color">Omed</span><br />
           a {professions[professionIndex]}
         </h1>
+        <p className="home__description">
+          Based in Montreal, I specialize in creating responsive 
+          web applications with modern technologies.
+        </p>
+        <a href="#contact" className="home__button">Contact Me</a>
       </div>
 
       <div className="home__social">
-        <a href="https://www.linkedin.com/in/omed-hossaini-a25b942a0/" className="home__social-icon">
+        <a href="https://www.linkedin.com/in/omed-hossaini-a25b942a0/" 
+           className="home__social-icon" 
+           target="_blank" 
+           rel="noopener noreferrer">
           <i className='bx bxl-linkedin'></i>
         </a>
-        <a href="https://github.com/OmedHossaini" className="home__social-icon">
+        <a href="https://github.com/OmedHossaini" 
+           className="home__social-icon" 
+           target="_blank" 
+           rel="noopener noreferrer">
           <i className='bx bxl-github'></i>
         </a>
-        <a href="mailto:omed_hossaini@outlook.com" className="home__social-icon">
+        <a href="mailto:omed_hossaini@outlook.com" 
+           className="home__social-icon">
           <i className='bx bx-mail-send'></i>
         </a>
       </div>
@@ -50,4 +67,3 @@ function Home() {
 }
 
 export default Home;
-
