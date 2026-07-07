@@ -70,8 +70,11 @@ export const featured = {
   ],
   tech: 'React Native (Expo) · TypeScript · Node.js / Express · AWS · Stripe · OpenAI API',
   built: '🍁 Built in Montréal',
-  // Image slot — drop TheCrib screenshots here (portrait / app UI).
-  image: '/thecrib.png',
+  // Featured media: web landing (behind) + mobile app screen (front).
+  media: {
+    web: '/thecrib-web.png',
+    mobile: '/thecrib-mobile.png',
+  },
 }
 
 export const projects = [
