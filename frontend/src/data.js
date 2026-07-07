@@ -69,7 +69,7 @@ export const featured = {
   tech: 'React Native (Expo) · TypeScript · Node.js / Express · AWS · Stripe · OpenAI API',
   built: '🍁 Built in Montréal',
   // Image slot — drop TheCrib screenshots here (portrait / app UI).
-  image: null,
+  image: '/thecrib.png',
 }
 
 export const projects = [
@@ -81,7 +81,7 @@ export const projects = [
       'A full-stack farm-management app I built in 24 hours. Firebase auth, a real-time weather API, CSV inventory and an OpenAI advice chatbot.',
     tech: ['React Native', 'TypeScript', 'Firebase', 'OpenAI'],
     href: 'https://devpost.com/software/farmerflow-ikzya7',
-    image: null,
+    image: '/farmerflow.png',
   },
   {
     number: '02',
@@ -101,7 +101,7 @@ export const projects = [
       'A bilingual React site for a real client, scoring 90+ on PageSpeed. I built the Node/Nodemailer email backend and a custom FR/EN translation system. Live in production.',
     tech: ['React', 'Node.js', 'Nodemailer', 'SEO'],
     href: 'https://www.toristecumtraductionandrevision.site/',
-    image: null,
+    image: '/tori.png',
   },
   {
     number: '04',
