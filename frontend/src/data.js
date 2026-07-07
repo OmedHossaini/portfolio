@@ -10,6 +10,8 @@ export const config = {
   // TODO: replace with the new resume link when provided.
   resumeUrl:
     'https://drive.google.com/file/d/1FdRC2F14XwT51WbynZwISFUTVHo1qVOj/view?usp=sharing',
+  // Hero headshot (in public/). Portrait ~4:5.
+  headshot: '/headshot.png',
 }
 
 export const contact = {

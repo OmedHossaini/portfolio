@@ -41,6 +41,7 @@ export default function Hero() {
         <Placeholder
           className="hero__photo"
           hero
+          src={config.headshot}
           alt="Portrait of Omed Hossaini"
           label="[ headshot ]"
         />
