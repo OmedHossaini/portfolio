@@ -68,12 +68,28 @@ function FeaturedCard() {
       </div>
 
       <div className="featured__right">
-        <Placeholder
-          className="featured__media"
-          alt="TheCrib web app"
-          label="[ TheCrib screenshot ]"
-          src={featured.image}
-        />
+        {featured.image ? (
+          <div className="browser">
+            <div className="browser__bar">
+              <span />
+              <span />
+              <span />
+              <em className="browser__url">thecrib.ca</em>
+            </div>
+            <img
+              className="browser__img"
+              src={featured.image}
+              alt="TheCrib web app"
+              loading="lazy"
+            />
+          </div>
+        ) : (
+          <Placeholder
+            className="featured__media"
+            alt="TheCrib web app"
+            label="[ TheCrib screenshot ]"
+          />
+        )}
         <span className="featured__badge">{featured.built}</span>
       </div>
     </article>
