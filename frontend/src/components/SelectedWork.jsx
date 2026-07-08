@@ -68,32 +68,12 @@ function FeaturedCard() {
       </div>
 
       <div className="featured__right">
-        {featured.media?.web || featured.media?.mobile ? (
-          <div className="crib-media">
-            {featured.media.web && (
-              <img
-                className="crib-web"
-                src={featured.media.web}
-                alt="TheCrib web app"
-                loading="lazy"
-              />
-            )}
-            {featured.media.mobile && (
-              <img
-                className="crib-phone"
-                src={featured.media.mobile}
-                alt="TheCrib iOS app dashboard"
-                loading="lazy"
-              />
-            )}
-          </div>
-        ) : (
-          <Placeholder
-            className="featured__media"
-            alt="TheCrib app screenshots"
-            label="[ TheCrib screenshots ]"
-          />
-        )}
+        <Placeholder
+          className="featured__media"
+          alt="TheCrib web app"
+          label="[ TheCrib screenshot ]"
+          src={featured.image}
+        />
         <span className="featured__badge">{featured.built}</span>
       </div>
     </article>

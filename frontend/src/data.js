@@ -25,6 +25,11 @@ export const contact = {
     'https://apps.apple.com/ca/app/thecrib-sports-platform/id6759890474',
 }
 
+// Prefilled mailto link used by the hero and contact CTAs.
+export const mailto = `mailto:${contact.email}?subject=${encodeURIComponent(
+  "Let's work together",
+)}`
+
 export const navLinks = [
   { label: 'Work', href: '#work' },
   { label: 'About', href: '#about' },
@@ -70,11 +75,8 @@ export const featured = {
   ],
   tech: 'React Native (Expo) · TypeScript · Node.js / Express · AWS · Stripe · OpenAI API',
   built: '🍁 Built in Montréal',
-  // Featured media: web landing (behind) + mobile app screen (front).
-  media: {
-    web: '/thecrib-web.png',
-    mobile: '/thecrib-mobile.png',
-  },
+  // Featured media — the web landing page.
+  image: '/thecrib-web.png',
 }
 
 export const projects = [
@@ -96,7 +98,7 @@ export const projects = [
       'Extracts, summarizes and auto-categorizes any pasted URL (YouTube, TikTok, Spotify and more) using Google Gemini. Includes JWT auth and a smart search with intent routing.',
     tech: ['React Native', 'Node.js', 'MongoDB', 'Google Gemini'],
     href: 'https://devpost.com/software/stash-5q8ina',
-    image: null,
+    image: '/stash.png',
   },
   {
     number: '03',
@@ -116,7 +118,7 @@ export const projects = [
       'A mobile-first restaurant site with a dynamic categorized menu, CSS3 animations and lazy-loaded assets. Live on Vercel.',
     tech: ['React', 'CSS3', 'Responsive'],
     href: 'https://brass-door-pub.vercel.app/',
-    image: null,
+    image: '/brassdoor.png',
   },
 ]
 

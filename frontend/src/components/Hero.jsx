@@ -1,4 +1,4 @@
-import { config, contact } from '../data'
+import { config, mailto } from '../data'
 import Placeholder from './Placeholder'
 
 export default function Hero() {
@@ -32,7 +32,7 @@ export default function Hero() {
             <a href="#work" className="btn btn--outline">
               See my work
             </a>
-            <a href={`mailto:${contact.email}`} className="btn btn--filled">
+            <a href={mailto} className="btn btn--filled">
               Get in touch →
             </a>
           </div>
